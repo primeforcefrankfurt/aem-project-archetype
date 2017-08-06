@@ -1,3 +1,5 @@
+# Work in progress .... not ready to use. 
+
 # aem-project-archetype
 AEM 6.3 Maven Archetype Project 
 
@@ -17,7 +19,7 @@ This is a project template is derived from the generic AEM Multi-Module archetyp
 
 There are just two parts of the project template:
 
-* bundles: Java bundle containing core functionality OSGi services, Sling Models services and component-related Java code like servlets.
+* bundles: Java bundle containing core functionality OSGi services, Sling Models and component-related Java code like servlets.
 * apps: The components content package including: components, templates,  clientlibs
 
 ## How to build

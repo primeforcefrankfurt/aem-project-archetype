@@ -1,10 +1,8 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/${artifactId}/primeforce">
-        <exclude pattern="/${artifactId}/primeforce/install"/>
+    <filter root="/apps/${appsFolderName}">
+        <exclude pattern="/apps/${appsFolderName}/install"/>
     </filter>
-    <filter root="/etc/designs/primeforce"/>
+    <filter root="/conf/${appsFolderName}"/>
+    <filter root="/etc/designs/${appsFolderName}"/>
 </workspaceFilter>
